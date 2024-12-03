@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:api": "npx playwright test --project='API E2E Tests'",
+    "test:ui": "npx playwright test --project='UI E2E Tests'",
+    "test": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.10.1",
+    "allure-commandline": "^2.32.0",
+    "allure-playwright": "^3.0.6"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
